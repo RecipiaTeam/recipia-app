@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ece7dd">
+  <meta name="description" content="Recipia 隐私政策：了解配方数据、iCloud 同步、AI 服务、订阅和设备权限的处理方式。">
+  <title>隐私政策 · Recipia</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./privacy.html" aria-label="Recipia 隐私政策首页">
+        <img src="./icon.png" alt="Recipia App 图标" width="46" height="46">
+        <span class="brand-copy">
+          <span class="brand-name">Recipia</span>
+          <span class="brand-note">配方记录与烹饪助手</span>
+        </span>
+      </a>
+    </header>
+
+    <main class="layout">
+      <article class="content-card">
+        <header class="document-head">
+          <h1 id="page-title">隐私政策</h1>
+        </header>
+        <div class="meta">
+          <span>生效日期：2026 年 7 月 23 日</span>
+          <span>适用于：Recipia iOS App</span>
+        </div>
+        <p class="summary">Recipia 无需注册账户即可记录配方。普通配方数据默认保存在设备本地；开启 iCloud 同步后会存储于你的 Apple iCloud 私有数据库。只有当你主动使用 AI 功能时，相应文字、图片或配方信息才会发送至在线服务处理。</p>
+
+        <section class="policy-section" id="scope">
+          <div class="section-heading"><span class="section-number">01</span><h2>适用范围</h2></div>
+          <p>本隐私政策适用于 Recipia（以下简称“本 App”）在提供配方记录、换算、制作步骤、烹饪计时、iCloud 同步、AI 生成和 Recipia Pro 订阅服务时对信息的处理。</p>
+          <p>本政策不适用于 Apple、AI 模型服务提供商、电子邮件服务商或你主动访问的其他第三方服务；这些服务对信息的处理受其各自政策约束。</p>
+        </section>
+
+        <section class="policy-section" id="local-data">
+          <div class="section-heading"><span class="section-number">02</span><h2>设备本地保存的数据</h2></div>
+          <p>你在本 App 中创建或编辑的以下内容默认保存在设备本地，用于提供核心功能：</p>
+          <ul>
+            <li><strong>配方内容：</strong>配方名称、模式、原料、数量、单位、产出量、热量、备注、引用关系和排序。</li>
+            <li><strong>制作内容：</strong>制作步骤、预计耗时以及你为配方或步骤选择的图片。</li>
+            <li><strong>使用偏好：</strong>主题外观、列表或网格视图、置顶项目、常用换算方案、AI 开关及免费使用次数。</li>
+            <li><strong>本地诊断记录：</strong>AI 请求状态、响应耗时、错误信息和 iCloud 同步记录，用于在 App 内排查故障。AI 本地日志可能包含输入或结构化请求的摘要，但不会保存上传图片的原始编码内容。</li>
+          </ul>
+          <div class="note">本 App 当前不要求你创建 Recipia 账户，也不主动要求提供姓名、手机号或通讯录。</div>
+        </section>
+
+        <section class="policy-section" id="permissions">
+          <div class="section-heading"><span class="section-number">03</span><h2>设备权限</h2></div>
+          <ul>
+            <li><strong>相机：</strong>在你选择拍摄时，用于添加配方图标、步骤配图或 AI 识别图片。</li>
+            <li><strong>照片：</strong>在你选择图片时，用于添加配方图标、步骤配图或 AI 识别图片。本 App 不会自动扫描整个照片图库。</li>
+            <li><strong>通知：</strong>在你启动烹饪倒计时时，用于发送计时结束提醒。</li>
+            <li><strong>iCloud：</strong>仅在你开启 iCloud 同步后，用于在你的 Apple 设备间同步配方数据。</li>
+          </ul>
+          <p>你可以在 iOS“设置”中管理相机、照片和通知权限，也可以在本 App 设置中关闭 iCloud 同步或 AI 助手。</p>
+        </section>
+
+        <section class="policy-section" id="icloud">
+          <div class="section-heading"><span class="section-number">04</span><h2>iCloud 同步</h2></div>
+          <p>iCloud 同步默认不会替你自动开启。当你主动开启后，配方、原料、制作步骤、配图、常用换算方案和删除状态等数据会通过 Apple CloudKit 存储在与你 Apple 账户关联的私有数据库中，用于设备间合并与同步。</p>
+          <p>iCloud 服务由 Apple 提供，其数据处理和安全措施受 Apple 的服务条款与隐私政策约束。关闭同步不会自动删除已经存储在 iCloud 中的数据；卸载本 App 通常也只会清除本机数据，不会自动清除 iCloud 副本。</p>
+        </section>
+
+        <section class="policy-section" id="ai">
+          <div class="section-heading"><span class="section-number">05</span><h2>AI 功能与在线处理</h2></div>
+          <p>当你主动使用“AI 创建配方”或“AI 生成制作步骤”时，本 App 会将完成该请求所需的信息加密传输至 Recipia 在线服务，并由第三方 AI 模型服务提供商处理：</p>
+          <ul>
+            <li>AI 创建配方可能发送你输入的文字，以及你明确选择或拍摄的最多三张图片。</li>
+            <li>AI 生成制作步骤会发送配方名称、配方模式、原料名称、用量和单位。</li>
+            <li>服务会处理并返回生成的配方名称、原料、用量、单位、产出、热量或制作步骤等结果。</li>
+          </ul>
+          <p>当你采用 AI 创建的配方并保存成功后，本 App 还会向 Recipia 在线服务发送最终配方中的普通原料名称（不包含引用配方行及其配方内的原料）、App 版本和图标目录版本，用于发现缺少独立图标的原料。该请求不包含原料用量、制作步骤、图片或用户身份信息，也不会发送给第三方 AI 模型。服务端会按名称去重保存缺图或共用其他图标的原料，以及匹配结果和首次、最近收到的时间，用于后续补充内置图标。</p>
+          <p>为保障服务稳定、安全和排查错误，在线服务可能记录请求标识、所用模型、图片数量、处理状态、响应耗时，以及文字输入和模型输出；服务端日志不会记录图片的原始 Base64 内容。我们不会将这些内容出售，也不会用于第三方定向广告。</p>
+          <p>请不要向 AI 功能提交身份证件、联系方式、支付信息、健康信息或其他与生成配方无关的敏感个人信息。第三方 AI 服务对数据的处理还可能受其自身条款与隐私规则约束。</p>
+        </section>
+
+        <section class="policy-section" id="purchase">
+          <div class="section-heading"><span class="section-number">06</span><h2>订阅与交易信息</h2></div>
+          <p>Recipia Pro 订阅通过 Apple App Store 和 StoreKit 处理。本 App 会读取商品信息、购买状态和当前订阅权益，以展示价格、完成购买、恢复购买并解锁功能。</p>
+          <p>付款凭证、银行卡号和完整账单信息由 Apple 处理，我们不会直接获取或保存这些支付信息。Apple 对交易信息的处理受其隐私政策和媒体服务条款约束。</p>
+        </section>
+
+        <section class="policy-section" id="feedback">
+          <div class="section-heading"><span class="section-number">07</span><h2>问题反馈</h2></div>
+          <p>当你主动通过 App 发送问题反馈时，邮件可能包含你填写的描述、App 版本，以及自动附加的设备型号、系统版本和近三天 iCloud 同步日志。发送前你可以在系统邮件界面检查、编辑或取消邮件。</p>
+          <p>我们仅将反馈内容用于回复问题、定位故障和改进服务。邮件同时受你所使用的电子邮件服务商隐私政策约束。</p>
+        </section>
+
+        <section class="policy-section" id="sharing">
+          <div class="section-heading"><span class="section-number">08</span><h2>共享、披露与跨境处理</h2></div>
+          <p>我们不出售个人信息，也不集成第三方广告或跨 App 跟踪 SDK。仅在提供功能所必需时，将相关信息交由以下服务处理：</p>
+          <ul>
+            <li>Apple：用于 iCloud 同步、App Store 订阅、购买验证和系统通知。</li>
+            <li>Recipia 在线服务及第三方 AI 模型服务提供商：仅在你主动使用 AI 功能时处理相应请求。</li>
+            <li>电子邮件服务商：仅在你主动发送问题反馈时传输邮件内容。</li>
+            <li>司法、监管或执法机构：仅在适用法律要求，或为保护用户、公众和服务安全所必需时披露。</li>
+          </ul>
+          <p>上述服务的服务器可能位于你所在国家或地区之外，因此相关信息可能发生跨境传输。我们会在合理可行的范围内要求服务提供商采取与本政策相符的保护措施。</p>
+        </section>
+
+        <section class="policy-section" id="retention">
+          <div class="section-heading"><span class="section-number">09</span><h2>数据保留与删除</h2></div>
+          <ul>
+            <li><strong>本地数据：</strong>通常保留至你在 App 内删除，或从设备卸载本 App。你可在日志页面单独清除本地诊断记录。</li>
+            <li><strong>iCloud 数据：</strong>在开启同步时按你的操作更新。手动删除配方会同步删除状态；如需处理无法通过 App 删除的 iCloud 数据，可通过下方邮箱联系我们。</li>
+            <li><strong>AI 与服务日志：</strong>仅在提供服务、保障安全、排查故障和满足法律义务所必需的期间保留，之后删除或去标识化。</li>
+            <li><strong>反馈邮件：</strong>在处理问题和合理的后续支持期间保留；你可联系我们请求删除。</li>
+          </ul>
+          <p>由于备份轮换、防欺诈、争议处理或法定义务，部分记录可能在删除请求后继续保留一段合理时间。</p>
+        </section>
+
+        <section class="policy-section" id="rights">
+          <div class="section-heading"><span class="section-number">10</span><h2>你的选择与权利</h2></div>
+          <p>根据适用法律，你可能有权了解、访问、更正、删除或限制我们处理与你有关的信息。你可以：</p>
+          <ul>
+            <li>在 App 内查看、编辑或删除配方、步骤、图片和常用换算方案。</li>
+            <li>关闭 AI 助手、iCloud 同步或相关系统权限，撤回后续处理授权。</li>
+            <li>清除本地日志，或通过下方邮箱提出数据访问、删除和隐私相关请求。</li>
+          </ul>
+          <p>处理请求时，我们可能需要核实与你的设备、请求或交易有关的信息，以避免误删或未经授权的访问。</p>
+        </section>
+
+        <section class="policy-section" id="security">
+          <div class="section-heading"><span class="section-number">11</span><h2>安全与儿童隐私</h2></div>
+          <p>我们采取与数据性质相适应的技术和管理措施，包括 HTTPS 加密传输、限制服务访问以及避免在日志中记录原始图片内容。但任何存储或网络传输方式都无法保证绝对安全。</p>
+          <p>本 App 不以未满 13 周岁的儿童为主要对象，也不会有意要求儿童提交个人信息。如监护人认为儿童通过 AI 或反馈功能提交了个人信息，请联系我们处理。</p>
+        </section>
+
+        <section class="policy-section" id="updates">
+          <div class="section-heading"><span class="section-number">12</span><h2>政策更新与联系</h2></div>
+          <p>我们可能因功能、服务提供商或法律要求变化而更新本政策。更新后的版本会在本页面公布，并标明新的生效日期；如变化会显著影响你的权利，我们会通过适当方式提示。</p>
+          <div class="contact-card">
+            <div><strong>隐私问题与数据请求</strong><p>请说明“Recipia 隐私请求”及相关情况</p></div>
+            <a href="mailto:recipia.support@gmail.com?subject=Recipia%20隐私请求">recipia.support@gmail.com</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <span>© 2026 Recipia. All rights reserved.</span>
+      <span><a href="./terms.html">使用条款</a> · <a href="mailto:recipia.support@gmail.com">联系我们</a></span>
+    </footer>
+  </div>
+</body>
+</html>
